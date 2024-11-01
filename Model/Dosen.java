@@ -31,7 +31,7 @@ public abstract class Dosen extends Staff {
 
     public int getUnit() {
         int unit = 0;
-        for (matkulAjar matkulAjar : ajarMatkul) {
+        for (MatkulAjar matkulAjar : ajarMatkul) {
             for (Presensi presensi : matkulAjar.getPresensiStaff()) {
                 if (presensi.isHadir()) {
                     unit++;

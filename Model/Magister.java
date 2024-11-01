@@ -3,10 +3,10 @@ package Model;
 import java.util.List;
 
 public class Magister extends Mahasiswa {
-    private List<MatKul> mataKuliah;
+    private List<MataKuliah> mataKuliah;
     private String judulTesis;
 
-    public Magister(String nama, String alamat, String TTL, String telepon, String NIM, String jurusan, List<MatKul> mataKuliah, String judulTesis) {
+    public Magister(String nama, String alamat, String TTL, String telepon, String NIM, String jurusan, List<MataKuliah> mataKuliah, String judulTesis) {
         super(nama, alamat, TTL, telepon, NIM, jurusan);
         this.mataKuliah = mataKuliah;
         this.judulTesis = judulTesis;

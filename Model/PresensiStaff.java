@@ -3,7 +3,7 @@ package Model;
 public class PresensiStaff extends Presensi {
     private String jam;
 
-    public PresensiStaff(String tanggal, StatusKehadiran status, String jam) {
+    public PresensiStaff(String tanggal, Kehadiran status, String jam) {
         super(tanggal, status);
         this.jam = jam;
     }
